@@ -1,0 +1,53 @@
+<!--Courtesy of ChatGPT and audio is from myinstants.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goat Screamer</title>
+  <style>
+    body {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+
+    button {
+      font-size: 24px;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff6b6b;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background-color: #ff4c4c;
+    }
+  </style>
+  <link rel="stylesheet" href="/resources/style.css">
+</head>
+<body>
+    <nav>
+        <div class="menuFormat">
+            <a href="index.html">Home</a>
+            <a href="pancakes.html">Pancakes</a>
+            <a href="goat.html">Goat</a>
+        </div>
+    </nav>
+<button onclick="playGoat()">🐐 Press for Goat</button>
+
+<audio id="goatSound" src="https://www.myinstants.com/media/sounds/goat.mp3"></audio>
+
+<script>
+  function playGoat() {
+    const sound = document.getElementById("goatSound");
+    sound.currentTime = 0;
+    sound.play();
+  }
+</script>
+
+</body>
+</html>
