@@ -1,0 +1,39 @@
+:root{
+    /*Recolor Text Elements*/
+    --title-color: black;
+
+    /*Recolor Links*/
+    --link-color: black;
+    --link-hover-color: rgb(57, 57, 57);
+
+    /*Recolor Backgrounds*/
+    --background-color: rgba(67, 67, 241, 0.909);
+    --text-selection-background-color: navy;
+    --text-selection-color: white;
+}
+/*css refresh*/
+body, ul, li, h1, h2, h3, h4, h5, h6, div, a, img, footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS';
+}
+
+.mainTitle{
+    color: darkmagenta;
+    background-color: burlywood;
+    text-align: center;
+}
+
+a{
+    color: orange;
+}
+
+.content{
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+}
+
+button{
+    font-family: 'Comic Sans MS'
+}
