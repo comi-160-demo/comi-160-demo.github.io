@@ -32,6 +32,7 @@ a{
     color: greenyellow;
     background-color: black;
     text-align: center;
+    display: block;
 }
 
 button{
